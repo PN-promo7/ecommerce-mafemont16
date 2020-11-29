@@ -336,3 +336,46 @@
     margin-left: 0;
   }
 }
+
+/* Desktops and laptops ----------- */
+/* For 1366 Resolution */
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+
+  /* Styles */
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .row {
+    justify-content: center;
+  }
+
+  .big-hero-image {
+    padding: 9rem;
+  }
+
+  .title-bestsellers {
+    margin-left: 94px;
+  }
+
+  .about-title {
+    margin-left: 75px;
+  }
+
+  .about-para {
+    width: 71%;
+    margin-top: 4rem;
+  }
+
+  .blog-article-para {
+    adding-right: 8rem;
+    margin-left: 45px;
+    padding-bottom: 4rem;
+  }
+
+  .image-plants {
+    margin-top: 0rem;
+  }
+}
