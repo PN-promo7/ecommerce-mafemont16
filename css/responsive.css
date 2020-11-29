@@ -105,7 +105,7 @@
     background-size: 100%;
     background-position: center;
     padding: 3.5rem;
-    margin-top: 50px;
+    margin-top: 48px;
   }
 
   .hero-main {
@@ -238,7 +238,6 @@
     margin-bottom: 20px;
   }
 
-
   /* FEATURE ICONS */
   .icons {
     margin: 0;
@@ -299,5 +298,41 @@
     font-size: 15px;
     margin-left: 62px;
     box-shadow: 12px 10px 43px -15px rgba(16, 16, 16, 0.75);
+  }
+}
+
+/* iPhone 5 -----------*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
+
+  /* Styles */
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* HERO */
+  .hero-main {
+    margin: 1.5rem;
+  }
+
+  .bg-hero-image {
+    background-size: 100%;
+    background-position: center;
+    padding: 2.5rem;
+    margin-top: 24px;
+  }
+
+  .hero-title {
+    font-size: 30px;
+  }
+
+  /* PROMO BANNER */
+  .promo-banner-mobile h3 {
+    margin-left: 0;
+  }
+
+  .cta-mobile-promo-banner {
+    margin-left: 0;
   }
 }
